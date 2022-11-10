@@ -2,24 +2,30 @@
   "name": "sdkcpc-amstrad-basic-language",
   "displayName": "sdkcpc-amstrad-basic-language",
   "description": "Amstrad Basic Programation",
+  "publisher": "destroyerdcf",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.73.0"
   },
+  "icon": "icon.png",
   "categories": [
     "Programming Languages"
   ],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/sdkcpc/amstrad-basic-language.git"
+	},
   "contributes": {
     "languages": [{
-      "id": "basic",
-      "aliases": ["Basic", "basic"],
+      "id": "sdkcpcamstradbasiclanguage",
+      "aliases": ["Basic", "basic","sdkcpc-amstrad-basic-language"],
       "extensions": [".bas"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
       "language": "basic",
-      "scopeName": "source.bas",
-      "path": "./syntaxes/basic.tmLanguage.json"
+      "scopeName": "source.sdkcpcamstradbasiclanguage",
+      "path": "./syntaxes/sdkcpcamstradbasiclanguage.tmLanguage.json"
     }]
   }
 }
