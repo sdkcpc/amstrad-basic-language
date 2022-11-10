@@ -2,7 +2,7 @@
   "name": "sdkcpc-amstrad-basic-language",
   "displayName": "sdkcpc-amstrad-basic-language",
   "description": "Amstrad Basic Programation",
-  "publisher": "destroyer",
+  "publisher": "destroyerdcf",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.73.0"
