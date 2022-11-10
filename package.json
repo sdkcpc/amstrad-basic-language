@@ -1,0 +1,25 @@
+{
+  "name": "sdkcpc-amstrad-basic-language",
+  "displayName": "sdkcpc-amstrad-basic-language",
+  "description": "Amstrad Basic Programation",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "basic",
+      "aliases": ["Basic", "basic"],
+      "extensions": [".bas"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "basic",
+      "scopeName": "source.bas",
+      "path": "./syntaxes/basic.tmLanguage.json"
+    }]
+  }
+}
