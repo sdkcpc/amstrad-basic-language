@@ -1,10 +1,22 @@
 # sdkcpc-amstrad-basic-language README
 
-LOCOMOTIVE SOFTWARE AMSTRAD CPC BASIC syntax highlighting for Visual Studio Code.
+This extension adds code for programming in Amstrad Basic. The extension is complemented by [sdkcpc-amstrad-basic-snippet](https://github.com/sdkcpc/amstrad-basic-snippet) which adds code to programing in amstrad Basic.
+
+## Features
+
+- Comments are added to lines "1 '"
+
+## Acknowledgments
 
 This extension is a port of the one created by dfreniche [fdfreniche](https://github.com/dfreniche/amstradbasic-vscode.git)
 
 Comments are added to lines "1 '"
+
+
+## Requirements
+
+It has no requirements. But it is recommended to use with the [sdkcpc-amstrad-basic-snippet](https://github.com/sdkcpc/amstrad-basic-language) extension and the [sdkcpc](https://sdkcpc.github.io/cpc/) python module
+
 
 ## Basic
 
@@ -40,9 +52,7 @@ AND, NOT, OR, XOR, MOD
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
+### 0.0.1
 
 Add comment "1 '" to bas files
 
